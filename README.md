@@ -2,6 +2,8 @@
 - Personal Info (image, name and title)
 - Completed Projects
 - Hobbys
+- Seminar Videos
+- Blog Post Links
 - Contact Form
 - Social Media Links
 
