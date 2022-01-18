@@ -1,4 +1,5 @@
 # Final Project : Personal Portfolio Page
+- 1 Page
 - Personal Info (image, name and title)
 - Completed Projects
 - Hobbys
