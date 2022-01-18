@@ -4,3 +4,9 @@
 - Hobbys
 - Contact Form
 - Social Media Links
+
+# Time Management
+- 18.01 -> HTML + CSS Basics + Responsiveness
+- 19.01 -> CSS Extras (Animation etc.)
+- 20.01 -> Test
+
