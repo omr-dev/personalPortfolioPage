@@ -10,7 +10,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./css/style.css">
-    <script src="https://kit.fontawesome.com/1afe3fe733.js" crossorigin="anonymous"></script>
+
     <title>Max Mustermann</title>
 
 
@@ -28,14 +28,14 @@
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active"><a class="nav-link" href="#projects">Projects</a></li>
 
-                <li class="nav-item"><a class="nav-link" href="#">Seminar</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Posts</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#seminarSectionStart">Seminar</a></li>
+                <li class="nav-item"><a class="nav-link" href="#postsSectionStart">Posts</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contactSectionStart">Contact</a></li>
             </ul>
         </div>
     </nav>
     <div class="container">
-        <section class="d-flex  justify-content-center align-items-center" id="profileDetails" style="height: 100vh;">
+        <section class="d-flex  justify-content-center align-items-center" id="profileDetails">
             <div class="card border-0" style="width: 30rem;">
                 <img class="card-img-top rounded-circle mx-auto" src="./img/profilePic.jpg"
                     style="width: 250px; height: 250px;" alt="Max Mustermann Profile Picture">
@@ -49,38 +49,44 @@
 
             </div>
         </section>
-        <section class="d-flex flex-column  justify-content-center align-items-center" id="projects"
-            style="height: 100vh;">
-            <h2 class="mb-5 fs-1">My Projects</h2>
+        <section class="d-flex flex-column  justify-content-center align-items-center" id="projects">
+            <h2>My Projects</h2>
             <div class="card-group">
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Project 1's Screenshot">
+                    <img src="./img/airbnb.jpg" class="card-img-top" alt="Project 1's Screenshot">
                     <div class="card-body">
-                        <h3 class="card-title">Project 1</h3>
-                        <p class="card-text">Detail of Project is Lorem ipsum dolor sit amet.</p>
+                        <h3 class="card-title">airbnb Plus</h3>
+                        <p class="card-text">You dont't need more Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Molestias maiores similique repellendus corporis, debitis quo.</p>
+                        <a href="#" class="btn btn-primary mb-3">Explore</a>
                         <div class="card-footer">
-                            <small class="text-muted">HTML CSS </small>
+                            <small class="text-muted">HTML CSS JS </small>
                         </div>
 
                     </div>
                 </div>
 
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Project 1's Screenshot">
+                    <img src="./img/youtube.jpg" class="card-img-top" alt="Project 2's Screenshot">
                     <div class="card-body">
-                        <h3 class="card-title">Project 1</h3>
-                        <p class="card-text">Detail of Project is Lorem ipsum dolor sit amet.</p>
+                        <h3 class="card-title">myTube</h3>
+                        <p class="card-text">Films, series and Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Sint voluptate incidunt inventore doloribus esse similique!</p>
+                        <a href="#" class="btn btn-primary mb-3">Explore</a>
                         <div class="card-footer">
-                            <small class="text-muted">HTML CSS </small>
+                            <small class="text-muted">HTML BOOTSTRAP</small>
                         </div>
 
                     </div>
                 </div>
                 <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Project 1's Screenshot">
+                    <img src="./img/maps.png" class="card-img-top" alt="Project 3's Screenshot">
                     <div class="card-body">
-                        <h3 class="card-title">Project 1</h3>
-                        <p class="card-text">Detail of Project is Lorem ipsum dolor sit amet.</p>
+                        <h3 class="card-title">Roads</h3>
+                        <p class="card-text">Driving across Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Accusamus porro corporis assumenda laudantium?
+                        </p>
+                        <a href="#" class="btn btn-primary mb-3">Explore</a>
                         <div class="card-footer">
                             <small class="text-muted">HTML CSS </small>
                         </div>
@@ -89,67 +95,147 @@
                 </div>
             </div>
         </section>
-        <section id="seminar" style="height: 100vh;">
+        <a id="seminarSectionStart"></a>
+        <section id="seminar">
             <h2>My Seminars</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Uu2ryltTXKo"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <iframe width=" 560" height="315" src="https://www.youtube.com/embed/1PnVor36_40"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <div class="seminarVideos d-flex justify-content-around flex-wrap">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Uu2ryltTXKo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/kibxYCNI7v8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/AdhqMZRZ2Ok"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/l5fA_-aYxvk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
         </section>
-        <section id="posts" style="height: 100vh;">
+        <a id="postsSectionStart"></a>
+        <section id="posts">
             <h2>My Blog-Posts</h2>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Flex or Grid ?</h5>
-                            <p class="card-text">
-                                Flex is Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, explicabo.
-                            </p>
-                            <a href="#" class="btn btn-primary"> Read more</a>
+            <div class="postBoxes d-flex flex-wrap justify-content-around">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/css.jpg" class="img-fluid rounded-start" alt="css">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Flex or Grid ?</h5>
+                                <p class="card-text">Flex is Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Nesciunt, explicabo.
+                                </p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 minutes ago</small></p>
+
+                                <a href="#" class="btn btn-primary"> Read more</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Flex or Grid ?</h5>
-                            <p class="card-text">
-                                Flex is Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, explicabo.
-                            </p>
-                            <a href="#" class="btn btn-primary"> Read more</a>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/userInterface.jpg" class="img-fluid rounded-start" alt="css">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Design Principles</h5>
+                                <p class="card-text">Colors are lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Nesciunt, explicabo.
+                                </p>
+                                <p class="card-text"><small class="text-muted">Last updated 5 hours ago</small></p>
+
+                                <a href="#" class="btn btn-primary"> Read more</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Flex or Grid ?</h5>
-                            <p class="card-text">
-                                Flex is Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, explicabo.
-                            </p>
-                            <a href="#" class="btn btn-primary"> Read more</a>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/sources.jpg" class="img-fluid rounded-start" alt="css">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">3 books of developers</h5>
+                                <p class="card-text">Screens are lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Nesciunt, explicabo.
+                                </p>
+                                <p class="card-text"><small class="text-muted">Last updated 7 days ago</small></p>
+
+                                <a href="#" class="btn btn-primary"> Read more</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Flex or Grid ?</h5>
-                            <p class="card-text">
-                                Flex is Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, explicabo.
-                            </p>
-                            <a href="#" class="btn btn-primary"> Read more</a>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/setup.jpg" class="img-fluid rounded-start" alt="css">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Home and office </h5>
+                                <p class="card-text">Kitchen is lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Nesciunt, explicabo.
+                                </p>
+                                <p class="card-text"><small class="text-muted">Last updated 10 days ago</small></p>
+
+                                <a href="#" class="btn btn-primary"> Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/angular.jpg" class="img-fluid rounded-start" alt="css">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Angular for beginners</h5>
+                                <p class="card-text">Javascript is lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Nesciunt, explicabo.
+                                </p>
+                                <p class="card-text"><small class="text-muted">Last updated 2 weeks ago</small></p>
+
+                                <a href="#" class="btn btn-primary"> Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./img/glass.jpg" class="img-fluid rounded-start" alt="css">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Protect your eyes</h5>
+                                <p class="card-text">Monitors are lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit.
+                                    Nesciunt, explicabo.
+                                </p>
+                                <p class="card-text"><small class="text-muted">Last updated 5 months ago</small></p>
+
+                                <a href="#" class="btn btn-primary"> Read more</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="contact" style="height: 100vh;">
+        <a id="contactSectionStart"></a>
+        <section id="contact">
             <h2>Contact</h2>
             <form action="">
                 <div class="mb-3">

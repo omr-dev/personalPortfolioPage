@@ -2,3 +2,29 @@
   padding-left: 1rem;
   padding-right: 1rem;
 }
+h2 {
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+section {
+  min-height: 100vh;
+  border-top: 1px solid gray;
+}
+#contact {
+  min-height: min-content;
+}
+
+#projects .card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+#seminar iframe {
+  margin: 1rem;
+}
+
+#posts img {
+  height: 100%;
+  object-fit: cover;
+}
