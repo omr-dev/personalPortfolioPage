@@ -8,9 +8,6 @@ section {
   min-height: 100vh;
   border-top: 1px solid gray;
 }
-#contact {
-  min-height: min-content;
-}
 
 #projects .card-img-top {
   height: 10rem;

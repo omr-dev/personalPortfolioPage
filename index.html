@@ -19,26 +19,26 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top px-4">
+        <div class="container-fluid">
 
-        <a class="navbar-brand" href="#">Max Mustermann</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a class="nav-link" href="#projects">Projects</a></li>
-
-                <li class="nav-item"><a class="nav-link" href="#seminarSectionStart">Seminars</a></li>
-                <li class="nav-item"><a class="nav-link" href="#postsSectionStart">Blog-Posts</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contactSectionStart">Contact</a></li>
-            </ul>
+            <a class="navbar-brand" href="#">Max Mustermann</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#seminar">Seminars</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#posts">Blog-Posts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-
     </nav>
     <div class="container">
         <section id="profileDetails" class="d-flex  justify-content-center align-items-center">
-            <div class="card border-0" style="width: 30rem;">
+            <div class="card border-0">
                 <img class="card-img-top rounded-circle mx-auto" src="./img/profilePic.jpg"
                     style="width: 250px; height: 250px;" alt="Max Mustermann Profile Picture">
                 <div class="card-body">
@@ -47,7 +47,7 @@
                 <p class="card-text text-center">
                     I’m a full stack web developer with experience in developing front-end and back-end web sites.
                 </p>
-                <a href="#" class="btn btn-primary">Take an appointment</a>
+                <a href="https://superpeer.com/" class="btn btn-primary">Take an appointment</a>
 
             </div>
         </section>
@@ -56,13 +56,12 @@
             <h2>My Projects</h2>
             <div class="card-group">
                 <div class="card">
-                    <img src="./img/airbnb.jpg" class="card-img-top" alt="Project 1's Screenshot"
-                        style="min-width: 350px;">
+                    <img src="./img/airbnb.jpg" class="card-img-top img-thumbnail" alt="Project 1's Screenshot">
                     <div class="card-body">
                         <h3 class="card-title">airbnb Plus</h3>
                         <p class="card-text">You dont't need more Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Molestias maiores similique repellendus corporis, debitis quo.</p>
-                        <a href="#" class="btn btn-primary mb-3">Explore</a>
+                        <a href="https://pages.github.com/" class="btn btn-primary mb-3">Explore</a>
                         <div class="card-footer">
                             <small class="text-muted">HTML CSS JS </small>
                         </div>
@@ -71,12 +70,12 @@
                 </div>
 
                 <div class="card">
-                    <img src="./img/youtube.jpg" class="card-img-top" alt="Project 2's Screenshot">
+                    <img src="./img/youtube.jpg" class="card-img-top img-thumbnail " alt="Project 2's Screenshot">
                     <div class="card-body">
                         <h3 class="card-title">myTube</h3>
                         <p class="card-text">Films, series and Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Sint voluptate incidunt inventore doloribus esse similique!</p>
-                        <a href="#" class="btn btn-primary mb-3">Explore</a>
+                        <a href="https://pages.github.com/" class="btn btn-primary mb-3">Explore</a>
                         <div class="card-footer">
                             <small class="text-muted">HTML BOOTSTRAP</small>
                         </div>
@@ -84,13 +83,13 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./img/maps.png" class="card-img-top" alt="Project 3's Screenshot">
+                    <img src="./img/maps.png" class="card-img-top img-thumbnail" alt="Project 3's Screenshot">
                     <div class="card-body">
                         <h3 class="card-title">Roads</h3>
                         <p class="card-text">Driving across Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                             Accusamus porro corporis assumenda laudantium?
                         </p>
-                        <a href="#" class="btn btn-primary mb-3">Explore</a>
+                        <a href="https://pages.github.com/" class="btn btn-primary mb-3">Explore</a>
                         <div class="card-footer">
                             <small class="text-muted">HTML CSS </small>
                         </div>
@@ -99,7 +98,7 @@
                 </div>
             </div>
         </section>
-        <a id="seminarSectionStart"></a>
+
         <section id="seminar">
             <h2>My Seminars</h2>
             <div class="seminarVideos d-flex justify-content-around flex-wrap">
@@ -121,16 +120,16 @@
                     allowfullscreen></iframe>
             </div>
         </section>
-        <a id="postsSectionStart"></a>
+
         <section id="posts">
             <h2>My Blog-Posts</h2>
             <div class="postBoxes d-flex flex-wrap justify-content-around">
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <img src="./img/css.jpg" class="img-fluid rounded-start" alt="css">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-lg-8">
                             <div class="card-body">
                                 <h5 class="card-title">Flex or Grid ?</h5>
                                 <p class="card-text">Flex is Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -138,17 +137,17 @@
                                 </p>
                                 <p class="card-text"><small class="text-muted">Last updated 3 minutes ago</small></p>
 
-                                <a href="#" class="btn btn-primary"> Read more</a>
+                                <a href="https://medium.com/" class="btn btn-primary"> Read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <img src="./img/userInterface.jpg" class="img-fluid rounded-start" alt="css">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-lg-8">
                             <div class="card-body">
                                 <h5 class="card-title">Design Principles</h5>
                                 <p class="card-text">Colors are lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -156,17 +155,17 @@
                                 </p>
                                 <p class="card-text"><small class="text-muted">Last updated 5 hours ago</small></p>
 
-                                <a href="#" class="btn btn-primary"> Read more</a>
+                                <a href="https://medium.com/" class="btn btn-primary"> Read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <img src="./img/sources.jpg" class="img-fluid rounded-start" alt="css">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-lg-8">
                             <div class="card-body">
                                 <h5 class="card-title">3 books of developers</h5>
                                 <p class="card-text">Screens are lorem ipsum dolor sit amet consectetur adipisicing
@@ -175,17 +174,17 @@
                                 </p>
                                 <p class="card-text"><small class="text-muted">Last updated 7 days ago</small></p>
 
-                                <a href="#" class="btn btn-primary"> Read more</a>
+                                <a href="https://medium.com/" class="btn btn-primary"> Read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <img src="./img/setup.jpg" class="img-fluid rounded-start" alt="css">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-lg-8">
                             <div class="card-body">
                                 <h5 class="card-title">Home and office </h5>
                                 <p class="card-text">Kitchen is lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -193,17 +192,17 @@
                                 </p>
                                 <p class="card-text"><small class="text-muted">Last updated 10 days ago</small></p>
 
-                                <a href="#" class="btn btn-primary"> Read more</a>
+                                <a href="https://medium.com/" class="btn btn-primary"> Read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <img src="./img/angular.jpg" class="img-fluid rounded-start" alt="css">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-lg-8">
                             <div class="card-body">
                                 <h5 class="card-title">Angular for beginners</h5>
                                 <p class="card-text">Javascript is lorem ipsum dolor sit amet consectetur adipisicing
@@ -212,17 +211,17 @@
                                 </p>
                                 <p class="card-text"><small class="text-muted">Last updated 2 weeks ago</small></p>
 
-                                <a href="#" class="btn btn-primary"> Read more</a>
+                                <a href="https://medium.com/" class="btn btn-primary"> Read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="row g-0">
-                        <div class="col-md-4">
+                        <div class="col-lg-4">
                             <img src="./img/glass.jpg" class="img-fluid rounded-start" alt="css">
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-lg-8">
                             <div class="card-body">
                                 <h5 class="card-title">Protect your eyes</h5>
                                 <p class="card-text">Monitors are lorem ipsum dolor sit amet consectetur adipisicing
@@ -231,28 +230,28 @@
                                 </p>
                                 <p class="card-text"><small class="text-muted">Last updated 5 months ago</small></p>
 
-                                <a href="#" class="btn btn-primary"> Read more</a>
+                                <a href="https://medium.com/" class="btn btn-primary"> Read more</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <a id="contactSectionStart"></a>
-        <section id="contact">
+
+        <section id="contact" style="min-height: min-content;">
             <h2>Contact</h2>
             <form action="">
                 <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name">
+                    <input type="text" class="form-control" id="name" required>
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
                 </div>
                 <div class="mb-3">
                     <label for="message" class="form-label">Message</label>
-                    <textarea class="form-control" id="message" rows="3"></textarea>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
                 </div>
                 <div>
                     <button type="submit" class="btn btn-primary mb-3">Send</button>
@@ -260,8 +259,8 @@
             </form>
         </section>
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <div class="col-md-4 d-flex align-items-center">
-                <a href="#" class="mb-3 me-2 mb-md-0 text-warning text-decoration-none lh-1">
+            <div class=" d-flex align-items-center">
+                <a href="https://www.google.com/search?q=sun+software" class=" text-warning text-decoration-none lh-1">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor"
                         class="bi bi-brightness-high-fill" viewBox="0 0 16 16">
                         <path
@@ -270,9 +269,9 @@
                 </a>
                 <span class="text-muted"> © 2022 Sun Software, Inc</span>
             </div>
-            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <ul class="nav justify-content-end list-unstyled d-flex">
                 <li class="ms-3">
-                    <a class="text-muted" href="#">
+                    <a class="text-muted" href="https://twitter.com/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor"
                             class="bi bi-twitter" viewBox="0 0 16 16">
                             <path
@@ -281,7 +280,7 @@
                     </a>
                 </li>
                 <li class="ms-3">
-                    <a class="text-muted" href="#">
+                    <a class="text-muted" href="https://www.github.com/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor"
                             class="bi bi-github" viewBox="0 0 16 16">
                             <path
@@ -290,7 +289,7 @@
                     </a>
                 </li>
                 <li class="ms-3">
-                    <a class="text-muted" href="#">
+                    <a class="text-muted" href="https://www.linkedin.com/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="currentColor"
                             class="bi bi-linkedin" viewBox="0 0 16 16">
                             <path
