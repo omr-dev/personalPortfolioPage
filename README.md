@@ -17,5 +17,9 @@
 
 # TODO
 
-- innere style to extern style
-- use section tag not div tag
+- [] innere style to extern style
+- [ x ] use section tag not div tag
+- [] ignor git ->.vscode folder
+- [] try to remove style.css
+- [] read all code
+- []

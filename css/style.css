@@ -17,7 +17,7 @@ section {
 }
 
 #projects .card-img-top {
-  height: 300px;
+  height: 10rem;
   object-fit: cover;
 }
 #seminar iframe {
